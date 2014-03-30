@@ -5,6 +5,9 @@ In other case, you'll need to reinstall it :(
 We're currenlty working on [this issue](https://github.com/DyCI/dyci-main/issues/8)...   
 If you've already expirienced this issue - remove and reinstall Xcode.
 
+#What I do
+I add some code to support inject code to a real device by sign the generated dylib and transfer it to the socket server in Device.(添加代码支持真机调试)
+
 # dyci
 Dynamic code injection tool.
 Allows you to inject your code into running iOS application, whithout restarting it.
