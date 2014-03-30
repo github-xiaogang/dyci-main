@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9FBE9718E7A63B00EE499E /* libdyci.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9FBE9618E7A63B00EE499E /* libdyci.a */; };
+		1F9FBE9B18E7A69A00EE499E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9FBE9A18E7A69A00EE499E /* Security.framework */; };
+		1F9FBEA318E7A75700EE499E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9FBEA218E7A75700EE499E /* CFNetwork.framework */; };
 		E4086802164699E30002D2ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4086801164699E30002D2ED /* UIKit.framework */; };
 		E4086804164699E30002D2ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4086803164699E30002D2ED /* Foundation.framework */; };
 		E4086806164699E30002D2ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4086805164699E30002D2ED /* CoreGraphics.framework */; };
@@ -18,11 +21,13 @@
 		E408683816469AC10002D2ED /* DYCIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E408683016469AC10002D2ED /* DYCIAppDelegate.m */; };
 		E408683A16469AC10002D2ED /* DYCIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E408683416469AC10002D2ED /* DYCIViewController.m */; };
 		E408683B16469AC10002D2ED /* UIView+SFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E408683716469AC10002D2ED /* UIView+SFAdditions.m */; };
-		E40921021650323600C08202 /* libdyci.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40921011650323600C08202 /* libdyci.a */; };
 		EEDBEBBA039CA0E6F59A51E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDBE397C533FEA0A9DCB8E7 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F9FBE9618E7A63B00EE499E /* libdyci.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdyci.a; path = "../../../../Library/Developer/Xcode/DerivedData/DYCI-ftstwzjpsqbvcedcijysnjhuldij/Build/Products/Debug-iphoneos/libdyci.a"; sourceTree = "<group>"; };
+		1F9FBE9A18E7A69A00EE499E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1F9FBEA218E7A75700EE499E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		E40867FD164699E30002D2ED /* dyci-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dyci-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4086801164699E30002D2ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E4086803164699E30002D2ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,7 +45,6 @@
 		E408683516469AC10002D2ED /* SFUIViewMacroses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUIViewMacroses.h; sourceTree = "<group>"; };
 		E408683616469AC10002D2ED /* UIView+SFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SFAdditions.h"; sourceTree = "<group>"; };
 		E408683716469AC10002D2ED /* UIView+SFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFAdditions.m"; sourceTree = "<group>"; };
-		E40921011650323600C08202 /* libdyci.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libdyci.a; path = "../dyci/build/Release-iphoneos/libdyci.a"; sourceTree = "<group>"; };
 		EEDBE397C533FEA0A9DCB8E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -49,7 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E40921021650323600C08202 /* libdyci.a in Frameworks */,
+				1F9FBEA318E7A75700EE499E /* CFNetwork.framework in Frameworks */,
+				1F9FBE9B18E7A69A00EE499E /* Security.framework in Frameworks */,
+				1F9FBE9718E7A63B00EE499E /* libdyci.a in Frameworks */,
 				E4086802164699E30002D2ED /* UIKit.framework in Frameworks */,
 				E4086804164699E30002D2ED /* Foundation.framework in Frameworks */,
 				E4086806164699E30002D2ED /* CoreGraphics.framework in Frameworks */,
@@ -82,7 +88,9 @@
 		E4086800164699E30002D2ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E40921011650323600C08202 /* libdyci.a */,
+				1F9FBEA218E7A75700EE499E /* CFNetwork.framework */,
+				1F9FBE9A18E7A69A00EE499E /* Security.framework */,
+				1F9FBE9618E7A63B00EE499E /* libdyci.a */,
 				E4086801164699E30002D2ED /* UIKit.framework */,
 				E4086803164699E30002D2ED /* Foundation.framework */,
 				E4086805164699E30002D2ED /* CoreGraphics.framework */,
@@ -270,14 +278,20 @@
 		E408681C164699E30002D2ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 明溢 多 (P4FGPZ7Y6K)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/dyci-example-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/dyci-example-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DYCI-ftstwzjpsqbvcedcijysnjhuldij/Build/Products/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = (
 					"-ldyci",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3C65A40E-C8F8-4A1D-99AF-E331BC79A0ED";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -285,14 +299,20 @@
 		E408681D164699E30002D2ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 明溢 多 (P4FGPZ7Y6K)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/dyci-example-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/dyci-example-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DYCI-ftstwzjpsqbvcedcijysnjhuldij/Build/Products/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = (
 					"-ldyci",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3C65A40E-C8F8-4A1D-99AF-E331BC79A0ED";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

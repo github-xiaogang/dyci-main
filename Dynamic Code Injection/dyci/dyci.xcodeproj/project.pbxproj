@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9FBE9518E7A46E00EE499E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9FBE9418E7A46E00EE499E /* GCDAsyncSocket.m */; };
+		1F9FBE9918E7A67C00EE499E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9FBE9818E7A67C00EE499E /* Security.framework */; };
+		1F9FBEA118E7A72400EE499E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9FBEA018E7A72400EE499E /* CFNetwork.framework */; };
+		1F9FBEA418E7A77500EE499E /* SFDynamicCodeInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = E40867EA164695F70002D2ED /* SFDynamicCodeInjection.m */; };
+		1F9FBEA518E7A7C100EE499E /* SFInjectionsNotificationsCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4584AE3175A22EC00460B8C /* SFInjectionsNotificationsCenter.m */; };
 		E40867CB164695180002D2ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40867CA164695180002D2ED /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E40867EB164695F70002D2ED /* NSSet+ClassesList.m in Sources */ = {isa = PBXBuildFile; fileRef = E40867E1164695F70002D2ED /* NSSet+ClassesList.m */; };
-		E40867EC164695F70002D2ED /* SFFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E40867E4164695F70002D2ED /* SFFileWatcher.m */; };
 		E40867ED164695F70002D2ED /* NSObject+DyCInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = E40867E8164695F70002D2ED /* NSObject+DyCInjection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E40867EE164695F70002D2ED /* SFDynamicCodeInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = E40867EA164695F70002D2ED /* SFDynamicCodeInjection.m */; };
-		E4584AE4175A22EC00460B8C /* SFInjectionsNotificationsCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4584AE3175A22EC00460B8C /* SFInjectionsNotificationsCenter.m */; };
-		E4D6E5211668D217007A50A4 /* UIViewController+XIBSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6E5201668D217007A50A4 /* UIViewController+XIBSupport.m */; };
-		EEDBED62B39AD60BD979D525 /* UINib+StoryBoardSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE99D210B32C40880289E /* UINib+StoryBoardSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,24 +30,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F9FBE9318E7A46E00EE499E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		1F9FBE9418E7A46E00EE499E /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		1F9FBE9818E7A67C00EE499E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1F9FBEA018E7A72400EE499E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		E40867C7164695180002D2ED /* libdyci.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdyci.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40867CA164695180002D2ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E40867DE164695B90002D2ED /* dyci-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dyci-Prefix.pch"; sourceTree = "<group>"; };
 		E40867E0164695F70002D2ED /* NSSet+ClassesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+ClassesList.h"; sourceTree = "<group>"; };
 		E40867E1164695F70002D2ED /* NSSet+ClassesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+ClassesList.m"; sourceTree = "<group>"; };
-		E40867E3164695F70002D2ED /* SFFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFileWatcher.h; sourceTree = "<group>"; };
-		E40867E4164695F70002D2ED /* SFFileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFileWatcher.m; sourceTree = "<group>"; };
-		E40867E5164695F70002D2ED /* SFFileWatcherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFileWatcherDelegate.h; sourceTree = "<group>"; };
 		E40867E7164695F70002D2ED /* NSObject+DyCInjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DyCInjection.h"; sourceTree = "<group>"; };
 		E40867E8164695F70002D2ED /* NSObject+DyCInjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DyCInjection.m"; sourceTree = "<group>"; };
 		E40867E9164695F70002D2ED /* SFDynamicCodeInjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFDynamicCodeInjection.h; sourceTree = "<group>"; };
 		E40867EA164695F70002D2ED /* SFDynamicCodeInjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFDynamicCodeInjection.m; sourceTree = "<group>"; };
 		E4584AE2175A22EC00460B8C /* SFInjectionsNotificationsCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFInjectionsNotificationsCenter.h; sourceTree = "<group>"; };
 		E4584AE3175A22EC00460B8C /* SFInjectionsNotificationsCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFInjectionsNotificationsCenter.m; sourceTree = "<group>"; };
-		E4D6E51F1668D217007A50A4 /* UIViewController+XIBSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XIBSupport.h"; sourceTree = "<group>"; };
-		E4D6E5201668D217007A50A4 /* UIViewController+XIBSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XIBSupport.m"; sourceTree = "<group>"; };
-		EEDBE99D210B32C40880289E /* UINib+StoryBoardSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINib+StoryBoardSupport.m"; sourceTree = "<group>"; };
-		EEDBEFD7A35F0700454FF8D5 /* UINib+StoryBoardSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINib+StoryBoardSupport.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9FBEA118E7A72400EE499E /* CFNetwork.framework in Frameworks */,
+				1F9FBE9918E7A67C00EE499E /* Security.framework in Frameworks */,
 				E40867CB164695180002D2ED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F9FBE9218E7A44F00EE499E /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				1F9FBE9318E7A46E00EE499E /* GCDAsyncSocket.h */,
+				1F9FBE9418E7A46E00EE499E /* GCDAsyncSocket.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
 		E40867BC164695180002D2ED = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +91,8 @@
 		E40867C9164695180002D2ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F9FBEA018E7A72400EE499E /* CFNetwork.framework */,
+				1F9FBE9818E7A67C00EE499E /* Security.framework */,
 				E40867CA164695180002D2ED /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -91,9 +101,9 @@
 		E40867DC164695B90002D2ED /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1F9FBE9218E7A44F00EE499E /* Socket */,
 				E4584AE1175A22EC00460B8C /* Notifications */,
 				E40867DF164695F70002D2ED /* Categories */,
-				E40867E2164695F70002D2ED /* FileWatcher */,
 				E40867E6164695F70002D2ED /* Injections */,
 				E40867E9164695F70002D2ED /* SFDynamicCodeInjection.h */,
 				E40867EA164695F70002D2ED /* SFDynamicCodeInjection.m */,
@@ -118,25 +128,11 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		E40867E2164695F70002D2ED /* FileWatcher */ = {
-			isa = PBXGroup;
-			children = (
-				E40867E3164695F70002D2ED /* SFFileWatcher.h */,
-				E40867E4164695F70002D2ED /* SFFileWatcher.m */,
-				E40867E5164695F70002D2ED /* SFFileWatcherDelegate.h */,
-			);
-			path = FileWatcher;
-			sourceTree = "<group>";
-		};
 		E40867E6164695F70002D2ED /* Injections */ = {
 			isa = PBXGroup;
 			children = (
-				E4D6E51F1668D217007A50A4 /* UIViewController+XIBSupport.h */,
-				E4D6E5201668D217007A50A4 /* UIViewController+XIBSupport.m */,
 				E40867E7164695F70002D2ED /* NSObject+DyCInjection.h */,
 				E40867E8164695F70002D2ED /* NSObject+DyCInjection.m */,
-				EEDBE99D210B32C40880289E /* UINib+StoryBoardSupport.m */,
-				EEDBEFD7A35F0700454FF8D5 /* UINib+StoryBoardSupport.h */,
 			);
 			path = Injections;
 			sourceTree = "<group>";
@@ -202,12 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E40867EB164695F70002D2ED /* NSSet+ClassesList.m in Sources */,
-				E40867EC164695F70002D2ED /* SFFileWatcher.m in Sources */,
+				1F9FBE9518E7A46E00EE499E /* GCDAsyncSocket.m in Sources */,
+				1F9FBEA518E7A7C100EE499E /* SFInjectionsNotificationsCenter.m in Sources */,
 				E40867ED164695F70002D2ED /* NSObject+DyCInjection.m in Sources */,
-				E40867EE164695F70002D2ED /* SFDynamicCodeInjection.m in Sources */,
-				E4D6E5211668D217007A50A4 /* UIViewController+XIBSupport.m in Sources */,
-				EEDBED62B39AD60BD979D525 /* UINib+StoryBoardSupport.m in Sources */,
-				E4584AE4175A22EC00460B8C /* SFInjectionsNotificationsCenter.m in Sources */,
+				1F9FBEA418E7A77500EE499E /* SFDynamicCodeInjection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +258,13 @@
 		E40867D6164695180002D2ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 明溢 多 (P4FGPZ7Y6K)";
 				DSTROOT = /tmp/dyci.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/dyci-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3C65A40E-C8F8-4A1D-99AF-E331BC79A0ED";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -276,11 +272,13 @@
 		E40867D7164695180002D2ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 明溢 多 (P4FGPZ7Y6K)";
 				DSTROOT = /tmp/dyci.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/dyci-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3C65A40E-C8F8-4A1D-99AF-E331BC79A0ED";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

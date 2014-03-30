@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 
 
-#if TARGET_IPHONE_SIMULATOR
 
 @interface NSSet (ClassesList)
 
@@ -19,5 +18,3 @@
 
 
 @end
-
-#endif

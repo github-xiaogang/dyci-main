@@ -8,8 +8,6 @@
 
 #import "SFInjectionsNotificationsCenter.h"
 
-#if TARGET_IPHONE_SIMULATOR
-
 @implementation SFInjectionsNotificationsCenter {
     NSMutableDictionary * _observers;
 }
@@ -111,5 +109,3 @@ This will notiy all registered classes about that some resource was injected
 
 @end
 
-
-#endif

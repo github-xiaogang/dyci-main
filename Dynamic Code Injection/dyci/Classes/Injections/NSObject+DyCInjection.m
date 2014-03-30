@@ -6,8 +6,6 @@
 //  Copyright (c) 2012 Stanfy LLC. All rights reserved.
 //
 
-#if TARGET_IPHONE_SIMULATOR
-
 #import <objc/runtime.h>
 #import "NSObject+DyCInjection.h"
 #import "SFDynamicCodeInjection.h"
@@ -50,7 +48,7 @@ void swizzle(Class c, SEL orig, SEL new) {
       return NO;
    }
 
-#warning We should skip more than just NS, CF, and private classes
+//warning We should skip more than just NS, CF, and private classes
    char const * className = object_getClassName(instance);
    
    switch (className[0]) {
@@ -160,5 +158,3 @@ void swizzle(Class c, SEL orig, SEL new) {
 }
 
 @end
-
-#endif
